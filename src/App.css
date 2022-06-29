@@ -1,11 +1,137 @@
 .App {
   text-align: center;
+  background: orange;
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  justify-content: center;
+  align-items: center;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
+input{
+  background: rgba(255, 255, 255, .1);
+  outline: none;
+  border: none;
+  padding: 10px;
+  border-bottom: 1px solid black;
+  width: calc(100% - 20px);
+  margin: 0;
+  margin-bottom: 10px;
+  
+}
+
+.btn{
+  background: rgba(0, 0, 0, .3);
+  outline: none;
+  border: none;
+  padding: 10px;
+  color: white;
+  border-radius: 5px;
+  transition-duration: .5s;
+  cursor: pointer;
+}
+
+.btn:hover{
+  background: rgba(0, 0, 0, .5);
+}
+
+.controls{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  margin-bottom: -10px;
+  width: 150px;
+  height: 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 50px);
+  justify-content: start;
+  align-items: start;
+  background: rgba(0, 0, 0, .3);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.controlBtn{
+  width: 50px;
+  color: white;
+  background: rgba(0, 0, 0, 0);
+  transition-duration: .5s;
+  align-self: stretch;
+  display: grid;
+  
+  justify-content: center;
+  align-items: center;
+}
+
+.controlBtn:hover{
+  width: 50px;
+  color: white;
+  background: rgba(0, 0, 0, .7);
+  color: DodgerBlue;
+}
+
+form{
+  
+  padding: 10px;
+  width: calc(100% - 20px);
+  display: grid;
+  
+
+}
+.joinCall{
+  background: rgba(255, 255, 255, .1);
+  display: grid;
+ padding: 10px;
+  width: 300px;
+  border-radius: 10px;
+}
+.videoStream{
+  display: grid;
+  
+  justify-content: center;
+  align-content: center;
+  
+  background: rgba(0, 0, 0, .2);
+  border-radius: 10px;
+  width: 80vw;
+  max-height: 45vw;
+  aspect-ratio: 16 / 9;
+  padding: 10px;
+}
+.agVideo{
+  background: rgba(255, 255, 255, 0);
+  width: calc(100% - 10px);
+  max-height: calc(100% - 10px);
+  aspect-ratio: 16 / 9;
+  place-self: center stretch;
+  border-radius: 10px;
+  border: 3px solid rgba(255, 255, 255, .3);
+  overflow: hidden;
+}
+.agVideo div{
+  background-color: rgba(255, 255, 255, 0);
+}
+.emptryVideoSlide{
+  background: rgba(255, 255, 255, 0);
+  width: 100px;
+  min-width: calc(100% - 10px);
+  max-height: calc(100% - 10px);
+  aspect-ratio: 16 / 9;
+  place-self: center stretch;
+  border-radius: 10px;
+  border: 3px solid rgba(255, 255, 255, .3);
+  
+}
+
+
+
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
