@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/vm-connect/static/css/main.20aec4b8.css",
-    "main.js": "/vm-connect/static/js/main.09e5d2cb.js",
+    "main.css": "/vm-connect/static/css/main.f5e9668d.css",
+    "main.js": "/vm-connect/static/js/main.eff738bb.js",
     "static/js/787.8108705a.chunk.js": "/vm-connect/static/js/787.8108705a.chunk.js",
     "index.html": "/vm-connect/index.html",
-    "main.20aec4b8.css.map": "/vm-connect/static/css/main.20aec4b8.css.map",
-    "main.09e5d2cb.js.map": "/vm-connect/static/js/main.09e5d2cb.js.map",
+    "main.f5e9668d.css.map": "/vm-connect/static/css/main.f5e9668d.css.map",
+    "main.eff738bb.js.map": "/vm-connect/static/js/main.eff738bb.js.map",
     "787.8108705a.chunk.js.map": "/vm-connect/static/js/787.8108705a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.20aec4b8.css",
-    "static/js/main.09e5d2cb.js"
+    "static/css/main.f5e9668d.css",
+    "static/js/main.eff738bb.js"
   ]
 }
